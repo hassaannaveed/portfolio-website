@@ -9,7 +9,7 @@ Firstly, the prototype of the website was created using Figma to first get to kn
 
 ## 📸 Figma
 
-![Portfolio Preview](figma-prototype)
+![Portfolio Preview](figma-prototype.png)
 
 ## 🚀 Live Website
 
