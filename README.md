@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# 🌟 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This project showcases my **skills**, **projects**, and **experience** as a developer.  
+Built with **Node.js** and **Vite** for a fast and modern development experience.
 
-Currently, two official plugins are available:
+## Prototyping
+Firstly, the prototype of the website was created using Figma to first get to know what are we going to build.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Figma
 
-## Expanding the ESLint configuration
+![Portfolio Preview](figma-prototype)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Live Website
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+[Visit My Portfolio](https://hassaannaveed.com)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Built With
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- Node.js
+- Vite
+- HTML5
+- CSS3 / SCSS
+- JavaScript
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## ✨ Features
+
+- ⚡ Lightning-fast Vite development server
+- 🌐 Fully responsive design (mobile-friendly)
+- 🧩 Modular component structure
+- 🎨 Smooth loading animations
+
+## 📋 Installation and Setup
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/hassaannaveed/portfolio-website.git
+    ```
+
+2. **Navigate into the project directory:**
+    ```bash
+    cd portfolio-website
+    ```
+
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5. **Build for production:**
+    ```bash
+    npm run build
+    ```
+
+## 🛠️ Customize
+
+- Edit the content in `/src/` to match your portfolio information.
+- Update `/src/assets/` with your images, icons, or fonts.
+
+## ⭐ Contributing
+
+This is a personal project, so contributions are generally not expected.  
+However, feel free to fork and customize it for your own use!
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
