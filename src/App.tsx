@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 const Hero: React.FC = () => {
+  const myImage = new URL('./assets/me.png', import.meta.url).href;
   return (
     <section className="hero">
-      <h1>Hi, I'm Hassaan Naveed</h1>
-      <p>Software Engineer | AI & ML Enthusiast</p>
+      <div className="hero-image">
+      <img src={myImage} alt="Hero" />
+      </div>
+      <div className="hero-text">
+        <h1>Hi, I'm Hassaan Naveed</h1>
+        <p>Software Engineer | AI & ML Enthusiast</p>
+      </div>
     </section>
   );
 };
@@ -42,7 +49,7 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <h2>Projects</h2>
       {projects.map((project, index) => (
         <div key={index} className="project-card">
@@ -64,7 +71,7 @@ const Projects: React.FC = () => {
 
 const Contact: React.FC = () => {
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <h2>Connect with Me</h2>
       <p>
         Email: <a href="mailto:hello@hassaannaveed.com">hello@hassaannaveed.com</a>
@@ -107,6 +114,7 @@ const App: React.FC = () => {
 
   return (
     <>
+      <Navbar />
       <Hero />
       <div className="container">
         <About />
@@ -114,9 +122,6 @@ const App: React.FC = () => {
         <Contact />
       </div>
       <Footer />
-      
-
-
     </>
   );
 };
