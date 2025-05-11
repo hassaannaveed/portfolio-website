@@ -207,6 +207,7 @@ footer p {
   .hero {
     flex-direction: column;
     text-align: center;
+    height: fit-content;
   }
 
   .hero-text h1 {
