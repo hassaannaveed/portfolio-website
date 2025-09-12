@@ -89,7 +89,8 @@ const Contact: React.FC = () => {
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Hassaan Naveed. All rights reserved.</p>
+      <p>Made with ❤️ by Hassaan Naveed</p>
+      <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
     </footer>
   );
 };

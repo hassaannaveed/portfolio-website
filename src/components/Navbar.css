@@ -29,6 +29,18 @@
     flex: 1;
     height: 100%;
   }
+
+  .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid white;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
   
   .nav-desktop a {
     color: white;

@@ -8,6 +8,10 @@ const Navbar: React.FC = () => {
 
   return (
     <header className="navbar">
+      <div className="logo">
+          <a href="#"><img src="/public/logo.png" alt="Logo" /></a>
+      </div>
+
       <div className="nav-container">
         <nav className="nav-desktop">
           <a href="#">Home</a>
