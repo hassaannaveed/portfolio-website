@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <header className="navbar">
       <div className="logo">
-          <a href="#"><img src="/public/logo.png" alt="Logo" /></a>
+          <a href="#"><img src="/logo.png" alt="Logo" /></a>
       </div>
 
       <div className="nav-container">
