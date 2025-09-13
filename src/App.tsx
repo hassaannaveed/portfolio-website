@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <img src={myImage} alt="Hero" />
       </div>
       <div className="hero-text">
-        <h1>Hi, I'm Hassaan Naveed</h1>
+        <h1 className="typing">Hi, I'm Hassaan Naveed</h1>
         <p>Software Engineer | AI & ML Enthusiast</p>
       </div>
     </section>
