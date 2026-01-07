@@ -242,7 +242,10 @@ footer p {
   .hero {
     flex-direction: column;
     text-align: center;
-    height: fit-content;
+    height: auto;       
+    min-height: 100vh;  
+    padding: 100px 20px 80px 20px; 
+    gap: 30px;
   }
 
   .hero-text h1 {
@@ -251,6 +254,13 @@ footer p {
 
   .hero-image img {
     width: 200px;
+  }
+
+  .typing {
+    white-space: normal; 
+    border-right: none;
+    animation: none;
+    width: auto;
   }
 
   .hero p,

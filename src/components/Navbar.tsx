@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
 
         {menuOpen && (
           <div className="mobile-menu">
-            <a href="#about" onClick={toggleMenu}>Home</a>
+            <a href="#" onClick={toggleMenu}>Home</a>
             <a href="#projects" onClick={toggleMenu}>Projects</a>
             <a href="#contact" onClick={toggleMenu}>Contact</a>
           </div>
